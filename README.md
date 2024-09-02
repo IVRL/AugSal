@@ -1,5 +1,5 @@
-# Data Augmentation for Saliency Prediction via Latent Diffusion (ECCV 2024)
-This is the GitHub repository for Data Augmentation for Saliency Prediction via Latent Diffusion paper in ECCV 2024, Milano, Italy
+# Data Augmentation via Latent Diffusion for Saliency Prediction (ECCV 2024)
+This is the GitHub repository for Data Augmentation via Latent Diffusion for Saliency Prediction paper in ECCV 2024, Milano, Italy.
 
 ![teaser-5](https://github.com/user-attachments/assets/f0228a97-f1f8-4d09-a687-b4887abe7ee3)
 
