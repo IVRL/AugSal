@@ -1,6 +1,13 @@
 # Data Augmentation via Latent Diffusion for Saliency Prediction (ECCV 2024)
 This is the GitHub repository for Data Augmentation via Latent Diffusion for Saliency Prediction paper in ECCV 2024, Milano, Italy.
 
+**TL;DR** We use latent diffusion to augment data for saliency prediction. We show our method improves the performance of existing saliency models. Moreover, we learn multilevel features that improve saliency prediction.
+
+[📚 Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10071.pdf) 
+[🖼️ Poster](https://eccv.ecva.net/media/PosterPDFs/ECCV%202024/2521.png?t=1726067821.916353)
+[🎞️ Video](https://youtu.be/Pu4E5CPQLjM)
+
+[🤗 Demo is coming soon!]
 ![teaser-5](https://github.com/user-attachments/assets/f0228a97-f1f8-4d09-a687-b4887abe7ee3)
 
 
