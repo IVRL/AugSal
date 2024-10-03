@@ -11,10 +11,7 @@ This is the GitHub repository for Data Augmentation via Latent Diffusion for Sal
 [🤗 Demo is coming soon!]
 
 
-<video width="600" controls>
-  <source src="https://augsal.github.io/sal_diff_files/augment.mp4" type="video/mp4">
- Intro.
-</video>
+![Teaser](./images/augment.gif)
 
 
 ![teaser-5](https://github.com/user-attachments/assets/f0228a97-f1f8-4d09-a687-b4887abe7ee3)
