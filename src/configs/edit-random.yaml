@@ -31,9 +31,6 @@ model_id: runwayml/stable-diffusion-v1-5
 # ============== SDv2-1 ==========
 # model_id: stabilityai/stable-diffusion-2-1-base
 #===================================
-#weights_path: "../readouts/diffusion_hyperfeatures/saved_checkpoints/checkpoint_step_129000.pt"
-#weights_path: "../readouts/diffusion_hyperfeatures/experiments/0rcfkkrc_sdv1-5_one-step/checkpoint_step_1500.pt"
-# weights_path: '../readouts/diffusion_hyperfeatures/saved_checkpoints/checkpoint_step_26200_9145.pt' #BEST MODEL
 weights_path: '../readouts/diffusion_hyperfeatures/experiments/gt9n4raq_sdv1-5_one-step/checkpoint_step_16200.pt'
 
 diffusion_mode: inversion
