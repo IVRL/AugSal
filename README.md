@@ -4,6 +4,7 @@ This is the GitHub repository for Data Augmentation via Latent Diffusion for Sal
 **TL;DR** We use latent diffusion to augment data for saliency prediction. We show our method improves the performance of existing saliency models. Moreover, we learn multilevel features that improve saliency prediction.
 
 [📚 Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10071.pdf) 
+[📦 Supplementary material](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10071-supp.pdf)
 [🖼️ Poster](https://eccv.ecva.net/media/PosterPDFs/ECCV%202024/2521.png?t=1726067821.916353)
 [🎞️ Video](https://youtu.be/Pu4E5CPQLjM)
 
