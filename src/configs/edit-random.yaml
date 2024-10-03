@@ -1,0 +1,49 @@
+# ======== Customize Paths =======
+image_path: ../fimplenet/saliency/salicon/images/train-512/ #datasets/SPair-71k/JPEGImages
+wandb_run: sdv1-5_one-step
+wandb_project: dhf
+results_folder: experiments
+# ======== Data / Logging ========
+pck_threshold: 0.1
+train_path: annotations/spair_71k_train.json
+val_path: annotations/spair_71k_val-360.json
+flip_timesteps: False
+# ======= Ours (All Steps) =======
+#save_timestep: [49, 45, 40, 35, 30, 25, 20, 15, 10, 5, 0]
+#save_timestep: [49, 40, 30, 20, 10, 0]
+save_timestep: [5, 4, 3, 2, 1, 0]
+
+num_timesteps: 6
+# ======== Ours - One-Step =======
+# save_timestep: [0]
+# num_timesteps: 1
+# ======= Training Hparams =======
+weight_decay: 0.01
+max_epochs: 1000
+max_steps_per_epoch: 5000
+val_every_n_steps: 100
+plot_every_n_steps: -1
+lr: 1e-4
+# ======== Model Hparams =========
+projection_dim: 384
+# ============== SDv1-5 ==========
+model_id: runwayml/stable-diffusion-v1-5
+# ============== SDv2-1 ==========
+# model_id: stabilityai/stable-diffusion-2-1-base
+#===================================
+#weights_path: "../readouts/diffusion_hyperfeatures/saved_checkpoints/checkpoint_step_129000.pt"
+#weights_path: "../readouts/diffusion_hyperfeatures/experiments/0rcfkkrc_sdv1-5_one-step/checkpoint_step_1500.pt"
+# weights_path: '../readouts/diffusion_hyperfeatures/saved_checkpoints/checkpoint_step_26200_9145.pt' #BEST MODEL
+weights_path: '../readouts/diffusion_hyperfeatures/experiments/gt9n4raq_sdv1-5_one-step/checkpoint_step_16200.pt'
+
+diffusion_mode: inversion
+output_resolution: 64
+load_resolution: 512
+batch_size: 1
+prompt: "a cat sleeping on a sofa"
+negative_prompt: ""
+guidance_scale: -1
+finetune_unet: False
+double_bottleneck: True
+bottleneck_lr: 1e-3
+double_bottleneck_and_mix: True
