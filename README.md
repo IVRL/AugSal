@@ -29,3 +29,26 @@ Saliency prediction models are constrained by the limited diversity and quantity
 Explore our visualizations and learn more about our project at **[https://augsal.github.io/](https://augsal.github.io/)**.
 
 ---
+
+## 📜 **Citation**
+
+If you use this work in your research, please cite our paper as follows:
+
+```bibtex
+@InProceedings{aydemir2024augsal,
+  title     = {Data Augmentation via Latent Diffusion forSaliency Prediction},
+  author    = {Aydemir, Bahar and Bhattacharjee, Deblina and Zhang, Tong and Salzmann, Mathieu and S{"u}sstrunk, Sabine},
+  booktitle = {18th European Conference on Computer Vision (ECCV), Proceedings},
+  year      = {2024},
+}
+```
+
+---
+
+## 📜 **License**
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>  
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
