@@ -8,7 +8,7 @@ We use latent diffusion to augment data for saliency prediction. We show our met
 - 📚 **[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10071.pdf)**  
 - 📦 **[Supplementary Material](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10071-supp.pdf)**  
 - 🖼️ **[Poster](https://eccv.ecva.net/media/PosterPDFs/ECCV%202024/2521.png?t=1726067821.916353)**  
-- 🎞️ **[Video](https://youtu.be/Pu4E5CPQLjM)**
+- 🎞️ **[Video](https://youtu.be/2R6iP9M_cQI?si=NzaXCvHmfhLyEsOC)**
 - 💻 **[Virtual Poster Session](https://eccv.ecva.net/virtual/2024/poster/2521)**
   
 [🤗 Demo is coming soon!]
